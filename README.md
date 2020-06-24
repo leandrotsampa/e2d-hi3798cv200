@@ -18,7 +18,7 @@ No momento deixei o **Enigma2** como aplicativo principal, mais nada impede de t
 - [**Enigma2**](#enigma2)
 - [**Kodi**](#kodi)
 - [**RetroArch**](#retroarch)
-- [**Tvheadend**](#tvheadend)
+- [**TVheadend**](#tvheadend)
 
 ## Instalação
 
@@ -31,11 +31,11 @@ No momento deixei o **Enigma2** como aplicativo principal, mais nada impede de t
 3. Utilizando o <span style="color:red">**WinRAR**</span> descompacte o arquivo que **começa** com o nome <span style="color:red">**e2d-armhf-pixel.img.tar**</span>, após descompactá-lo você deverá ter o arquivo <span style="color:red">**e2d-armhf-pixel.img**</span> ou no caso de **versões posteriores** a data **19/06/2020** você terá os arquivos <span  style="color:red">**e2d-armhf-pixel.img, update.img e update.upk**</span>.
  - Segue duas formas de se aplicar o arquivo <span style="color:red">**e2d-armhf-pixel.img**</span> no <span style="color:red">**SDCard**</span>.
  - <span style="color:red">**1ª:**</span> Você pode aplicar o arquivo <span style="color:red">**e2d-armhf-pixel.img**</span> utilizando o [Win32DiskImager](https://sourceforge.net/projects/win32diskimager/) ou usando o comando [dd](https://www.howtoforge.com/linux-dd-command/) no linux.
- ```dd if=/media/sda1/e2d-armhf-pixel.img of=/dev/mmcblk1```
+<enter>```dd if=/media/sda1/e2d-armhf-pixel.img of=/dev/mmcblk1```
  - <span style="color:red">**2ª:**</span> Formate um <span style="color:red">**Pen Drive** em **FAT32**</span> e copie os arquivos <span  style="color:red">**e2d-armhf-pixel.img, update.img e update.upk** </span> para o ROOT do <span style="color:red">**Pen Drive**</span>.
  - Desligue o aparelho e plug o <span style="color:red">**Pen Drive**</span>.
  - Ligue o aparelho e ao aparecer <span style="color:red">**MENU**</span> escrito no visor, aperte a teclar <span style="color:green">**VERDE** </span> do controle remoto, com isso o visor deverá mudar de <span style="color:red">**MENU**</span> para <span style="color:red">**UPDT** </span> e iniciará o processo de atualização do <span style="color:red">**SDCard**</span>.
- - <span style="color:red">**NOTA:**</span> Além de demorado, este método só funcionará em **versões posteriores** a data **19/06/2020** do arquivo <span style="color:red">**e2d-armhf-pixel.upk**</span>.
+ - <span style="color:red">**AVISO:**</span> Além de demorado, este método só funcionará em **versões posteriores** a data **19/06/2020** do arquivo <span style="color:red">**e2d-armhf-pixel.upk**</span>.
 4. Após concluir o procedimento no <span style="color:red">**SDCard**</span>, deslique o aparelho e ponha o <span style="color:red">**SDCard**</span> caso o tenha removido.
 5. Ao ligar o aparelho irá aparecer <span style="color:red">**MENU**</span> no visor, você terá alguns segundos para apertar uma tecla do controle remoto e escolher uma das opções abaixo, caso contrário será iniciada a última opção escolhida:
     - Tecla <span style="color:red">**VERMELHA**</span> - Android
@@ -66,6 +66,7 @@ Caso encontre algum **bug**, você pode **reportá-lo** no **git** do projeto ou
 
 ## <!-- -->
 ### Kodi
+<img src="files/e2d-pixel-kodi.gif" width="800" />
 
 Foi implementado a **Decodificação de Video por HW** e aplicado as devidas correções para o funcionamento pleno do aplicativo, você pode assistir seus videos em **4K** sem nenhum problema **;P**. Você pode executá-lo pela lista de **plugins** do [**Enigma2**](#enigma2).
 
@@ -73,16 +74,16 @@ Caso encontre algum **bug**, você pode **reportá-lo** no **git** do projeto ou
 
 Caso queira colocar o [**Kodi**](#kodi) como aplicativo principal, basta executar os comandos abaixo no terminal **SSH**:
 
-**NOTA:** Apesar de funcional, ainda é experimental.
+<span style="color:red">**AVISO:**</span> Apesar de funcional, ainda é experimental.
 
 ```shell
-# Desativar Enigma2
+# Desativar o Enigma2
 systemctl disable enigma2
 
-# Ativar Kodi
+# Ativar o Kodi
 systemctl enable kodi
 
-# Ativar Tvheadend (Opcional)
+# Ativar o TVheadend (Opcional)
 systemctl enable tvheadend
 
 # Reiniciar o Aparelho
@@ -95,6 +96,7 @@ shutdown -r now
 
 ## <!-- -->
 ### RetroArch
+<img src="files/e2d-pixel-retroarch.gif" width="800" />
 
 É um ótimo emulador de jogos, não foi preciso muitas alterações para adiciona-lo nesta lista. Você pode executá-lo pela lista de **plugins** do [**Enigma2**](#enigma2).
 
@@ -104,16 +106,17 @@ Caso você seja um **desenvolvedor** ou mesmo um **entusiasta** você pode **bai
 - Patch: [**GitHub**](https://gist.github.com/leandrotsampa/48ccad44ec138afa5da7460703366ae2)
 
 ## <!-- -->
-### Tvheadend
+### TVheadend
+<img src="files/tvheadend.jpg">
 
 É um ótimo software de uso profissional voltado para **streaming**, por padrão ele vem desativado já que o [**Enigma2**](#enigma2) vem com suporte a **streaming** porém para facilitar a vida de alguns usuários já deixei o programa instalado.
 
-Caso queira ativar o [**Tvheadend**](#tvheadend), basta executar os comandos abaixo no terminal **SSH**:
+Caso queira ativar o [**TVheadend**](#tvheadend), basta executar os comandos abaixo no terminal **SSH**:
 
-**NOTA:** O [**Enigma2**](#enigma2) e o [**Tvheadend**](#tvheadend) não podem utilizar os mesmos **tuners**, por isso tenha isso em mente ao configurar o uso de cada **tuner** caso vá **utilizar ambos** os programas.
+<span style="color:red">**AVISO:**</span> O [**Enigma2**](#enigma2) e o [**TVheadend**](#tvheadend) não podem utilizar os mesmos **tuners**, por isso tenha isso em mente ao configurar o uso de cada **tuner** caso vá **utilizar ambos** os programas.
 
 ```shell
-# Ativar Tvheadend
+# Ativar o TVheadend
 systemctl enable tvheadend
 
 # Reiniciar o Aparelho
