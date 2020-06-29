@@ -24,7 +24,7 @@ No momento deixei o **Enigma2** como aplicativo principal, mais nada impede de t
 ---
 ## :notebook: Ficha Técnica <a name="ficha_tecnica"></a>
 
-- Processador: **Hi3716Cv200**
+- Processador: **Hi3798Cv200**
 - 1ª Geração: **2GB** RAM - **4GB** NAND - Tuner **DVB-C Triple**
 - 2ª Geração: **2GB** RAM - **8GB** NAND - Tuner **DVB-C Triple** + Tuner **DVB-S/S2** ou **ISDB-T**
 - Rede: **10MB / 100MB / 1000MB** - WiFi **2GHz** + **Bluetooth**
