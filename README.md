@@ -21,6 +21,8 @@ Muitos me perguntam o porque de fazer um projeto híbrido ao invés de partir pa
 
 No momento deixei o **Enigma2** como aplicativo principal, mais nada impede de trocá-lo pelo **KODI** ou **RetroArch** por exemplo.
 
+Aqueles que queiram contribuir com o Projeto, segue meu **PIX**: leandrotsampa@yahoo.com.br
+
 ---
 ## :notebook: Ficha Técnica <a name="ficha_tecnica"></a>
 
@@ -33,7 +35,7 @@ No momento deixei o **Enigma2** como aplicativo principal, mais nada impede de t
 ## :checkered_flag: Instalação <a name="instalacao"></a>
 
 1. Baixe **todos** os arquivos relacionados a **Última Versão** e lembre-se de checar o arquivo de **ChangeLog.md** caso exista.
- - **Última Versão:** [**19/06/2020**](https://leandro.azsat.org/2020-06-19/)
+ - **Última Versão:** [**26/02/2021**](https://leandro.azsat.org/2021-02-26/)
  - **Todas as Versões:** [**Site**](https://leandro.azsat.org/)
 2. **Caso exista** o arquivo <span style="color:red">**e2d-armhf-pixel.upk**</span> na pasta da **Última Versão** é obrigatório aplicá-lo no sistema, pois ele trás alterações importantes para o correto funcionamento do mesmo.
  - Se o arquivo <span style="color:red">**não existir**</span> é obrigatório estar com o arquivo aplicado <span style="color:red">**e2d-armhf-pixel.upk**</span> da **Última Versão** em que ele tenha sido liberado.
