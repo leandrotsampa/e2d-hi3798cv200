@@ -113,7 +113,7 @@ shutdown -r now
 
 Caso você seja um **desenvolvedor** ou mesmo um **entusiasta** você pode **baixar o patch** e **compilar/debugar** no próprio **receptor**.
 
-- Versão: **1.8.5**
+- Versão: **1.9.0**
 - Patch: [**GitHub**](https://gist.github.com/leandrotsampa/48ccad44ec138afa5da7460703366ae2)
 
 ---
@@ -135,4 +135,4 @@ shutdown -r now
 ```
 
 - Versão: **4.3-1857~g221c29b40-dirty**
-- Patch: [**GitHub**](https://github.com/tvheadend/tvheadend)
+- Source: [**GitHub**](https://github.com/tvheadend/tvheadend)
