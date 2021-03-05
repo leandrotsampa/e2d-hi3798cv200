@@ -21,7 +21,7 @@ Muitos me perguntam o porque de fazer um projeto híbrido ao invés de partir pa
 
 No momento deixei o **Enigma2** como aplicativo principal, mais nada impede de trocá-lo pelo **KODI** ou **RetroArch** por exemplo.
 
-Aqueles que queiram contribuir com o Projeto, segue meu **PIX**: leandrotsampa@yahoo.com.br
+Aqueles que queiram contribuir com o Projeto, segue meu **PIX / Paypal**: leandrotsampa@yahoo.com.br
 
 ---
 ## :notebook: Ficha Técnica <a name="ficha_tecnica"></a>
